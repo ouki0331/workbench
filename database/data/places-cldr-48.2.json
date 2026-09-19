@@ -1,0 +1,5870 @@
+{
+  "schema_version": 1,
+  "generated_on": "2026-09-20",
+  "sources": {
+    "redistributed_data": {
+      "name": "Unicode CLDR",
+      "version": "48.2",
+      "archive": "core.zip",
+      "url": "https://unicode.org/Public/cldr/48.2/core.zip",
+      "sha512": "de8660f5371e0fcfd03a42e3b4fc4c686ec6cd602b402f1e3d227844005a54eb7952873894443523837d5828c42874a1a267a19f91ded207a2d166144791fa62",
+      "license": "Unicode-3.0",
+      "files": [
+        "common/supplemental/supplementalData.xml",
+        "common/main/en.xml",
+        "common/main/ja.xml",
+        "common/main/zh.xml",
+        "common/main/zh_Hant.xml"
+      ]
+    },
+    "validation_reference": {
+      "name": "UNSD M49 overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview",
+      "retrieved_on": "2026-09-20",
+      "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+      "redistributed": false
+    }
+  },
+  "scope": "M49 overview hierarchy: world, geographic regions, sub-regions, intermediate regions, countries or areas",
+  "observed_node_count": 278,
+  "places": [
+    {
+      "id": "place-world",
+      "kind": "world",
+      "parent_id": null,
+      "m49_code": "001",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "world",
+        "ja": "世界",
+        "zh-CN": "世界",
+        "zh-TW": "世界"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-africa",
+      "kind": "region",
+      "parent_id": "place-world",
+      "m49_code": "002",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Africa",
+        "ja": "アフリカ",
+        "zh-CN": "非洲",
+        "zh-TW": "非洲"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-oceania",
+      "kind": "region",
+      "parent_id": "place-world",
+      "m49_code": "009",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Oceania",
+        "ja": "オセアニア",
+        "zh-CN": "大洋洲",
+        "zh-TW": "大洋洲"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-americas",
+      "kind": "region",
+      "parent_id": "place-world",
+      "m49_code": "019",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Americas",
+        "ja": "アメリカ大陸",
+        "zh-CN": "美洲",
+        "zh-TW": "美洲"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-asia",
+      "kind": "region",
+      "parent_id": "place-world",
+      "m49_code": "142",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Asia",
+        "ja": "アジア",
+        "zh-CN": "亚洲",
+        "zh-TW": "亞洲"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-europe",
+      "kind": "region",
+      "parent_id": "place-world",
+      "m49_code": "150",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Europe",
+        "ja": "ヨーロッパ",
+        "zh-CN": "欧洲",
+        "zh-TW": "歐洲"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-005",
+      "kind": "subregion",
+      "parent_id": "place-m49-419",
+      "m49_code": "005",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "South America",
+        "ja": "南アメリカ",
+        "zh-CN": "南美洲",
+        "zh-TW": "南美洲"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-011",
+      "kind": "subregion",
+      "parent_id": "place-m49-202",
+      "m49_code": "011",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Western Africa",
+        "ja": "西アフリカ",
+        "zh-CN": "西非",
+        "zh-TW": "西非"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-013",
+      "kind": "subregion",
+      "parent_id": "place-m49-419",
+      "m49_code": "013",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Central America",
+        "ja": "中央アメリカ",
+        "zh-CN": "中美洲",
+        "zh-TW": "中美"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-014",
+      "kind": "subregion",
+      "parent_id": "place-m49-202",
+      "m49_code": "014",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Eastern Africa",
+        "ja": "東アフリカ",
+        "zh-CN": "东非",
+        "zh-TW": "東非"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-015",
+      "kind": "subregion",
+      "parent_id": "place-africa",
+      "m49_code": "015",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Northern Africa",
+        "ja": "北アフリカ",
+        "zh-CN": "北非",
+        "zh-TW": "北非"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-017",
+      "kind": "subregion",
+      "parent_id": "place-m49-202",
+      "m49_code": "017",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Middle Africa",
+        "ja": "中部アフリカ",
+        "zh-CN": "中非",
+        "zh-TW": "中非"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-018",
+      "kind": "subregion",
+      "parent_id": "place-m49-202",
+      "m49_code": "018",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Southern Africa",
+        "ja": "南部アフリカ",
+        "zh-CN": "南部非洲",
+        "zh-TW": "非洲南部"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-021",
+      "kind": "subregion",
+      "parent_id": "place-americas",
+      "m49_code": "021",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Northern America",
+        "ja": "北アメリカ",
+        "zh-CN": "美洲北部",
+        "zh-TW": "北美"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-029",
+      "kind": "subregion",
+      "parent_id": "place-m49-419",
+      "m49_code": "029",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Caribbean",
+        "ja": "カリブ",
+        "zh-CN": "加勒比地区",
+        "zh-TW": "加勒比海"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-030",
+      "kind": "subregion",
+      "parent_id": "place-asia",
+      "m49_code": "030",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Eastern Asia",
+        "ja": "東アジア",
+        "zh-CN": "东亚",
+        "zh-TW": "東亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-034",
+      "kind": "subregion",
+      "parent_id": "place-asia",
+      "m49_code": "034",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Southern Asia",
+        "ja": "南アジア",
+        "zh-CN": "南亚",
+        "zh-TW": "南亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-035",
+      "kind": "subregion",
+      "parent_id": "place-asia",
+      "m49_code": "035",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Southeast Asia",
+        "ja": "東南アジア",
+        "zh-CN": "东南亚",
+        "zh-TW": "東南亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-039",
+      "kind": "subregion",
+      "parent_id": "place-europe",
+      "m49_code": "039",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Southern Europe",
+        "ja": "南ヨーロッパ",
+        "zh-CN": "南欧",
+        "zh-TW": "南歐"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-053",
+      "kind": "subregion",
+      "parent_id": "place-oceania",
+      "m49_code": "053",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Australasia",
+        "ja": "オーストララシア",
+        "zh-CN": "澳大拉西亚",
+        "zh-TW": "澳洲與紐西蘭"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-054",
+      "kind": "subregion",
+      "parent_id": "place-oceania",
+      "m49_code": "054",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Melanesia",
+        "ja": "メラネシア",
+        "zh-CN": "美拉尼西亚",
+        "zh-TW": "美拉尼西亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-057",
+      "kind": "subregion",
+      "parent_id": "place-oceania",
+      "m49_code": "057",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Micronesian Region",
+        "ja": "ミクロネシア",
+        "zh-CN": "密克罗尼西亚地区",
+        "zh-TW": "密克羅尼西亞群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-061",
+      "kind": "subregion",
+      "parent_id": "place-oceania",
+      "m49_code": "061",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Polynesia",
+        "ja": "ポリネシア",
+        "zh-CN": "玻利尼西亚",
+        "zh-TW": "玻里尼西亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-143",
+      "kind": "subregion",
+      "parent_id": "place-asia",
+      "m49_code": "143",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Central Asia",
+        "ja": "中央アジア",
+        "zh-CN": "中亚",
+        "zh-TW": "中亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-145",
+      "kind": "subregion",
+      "parent_id": "place-asia",
+      "m49_code": "145",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Western Asia",
+        "ja": "西アジア",
+        "zh-CN": "西亚",
+        "zh-TW": "西亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-151",
+      "kind": "subregion",
+      "parent_id": "place-europe",
+      "m49_code": "151",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Eastern Europe",
+        "ja": "東ヨーロッパ",
+        "zh-CN": "东欧",
+        "zh-TW": "東歐"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-154",
+      "kind": "subregion",
+      "parent_id": "place-europe",
+      "m49_code": "154",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Northern Europe",
+        "ja": "北ヨーロッパ",
+        "zh-CN": "北欧",
+        "zh-TW": "北歐"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-155",
+      "kind": "subregion",
+      "parent_id": "place-europe",
+      "m49_code": "155",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Western Europe",
+        "ja": "西ヨーロッパ",
+        "zh-CN": "西欧",
+        "zh-TW": "西歐"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-202",
+      "kind": "subregion",
+      "parent_id": "place-africa",
+      "m49_code": "202",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Sub-Saharan Africa",
+        "ja": "サブサハラアフリカ",
+        "zh-CN": "撒哈拉以南非洲",
+        "zh-TW": "撒哈拉撒沙漠以南非洲"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-419",
+      "kind": "subregion",
+      "parent_id": "place-americas",
+      "m49_code": "419",
+      "iso_alpha2": null,
+      "iso_alpha3": null,
+      "names": {
+        "en": "Latin America",
+        "ja": "ラテンアメリカ",
+        "zh-CN": "拉丁美洲",
+        "zh-TW": "拉丁美洲"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-004",
+      "kind": "area",
+      "parent_id": "place-m49-034",
+      "m49_code": "004",
+      "iso_alpha2": "AF",
+      "iso_alpha3": "AFG",
+      "names": {
+        "en": "Afghanistan",
+        "ja": "アフガニスタン",
+        "zh-CN": "阿富汗",
+        "zh-TW": "阿富汗"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-008",
+      "kind": "area",
+      "parent_id": "place-m49-039",
+      "m49_code": "008",
+      "iso_alpha2": "AL",
+      "iso_alpha3": "ALB",
+      "names": {
+        "en": "Albania",
+        "ja": "アルバニア",
+        "zh-CN": "阿尔巴尼亚",
+        "zh-TW": "阿爾巴尼亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-010",
+      "kind": "area",
+      "parent_id": "place-world",
+      "m49_code": "010",
+      "iso_alpha2": "AQ",
+      "iso_alpha3": "ATA",
+      "names": {
+        "en": "Antarctica",
+        "ja": "南極",
+        "zh-CN": "南极洲",
+        "zh-TW": "南極洲"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-012",
+      "kind": "area",
+      "parent_id": "place-m49-015",
+      "m49_code": "012",
+      "iso_alpha2": "DZ",
+      "iso_alpha3": "DZA",
+      "names": {
+        "en": "Algeria",
+        "ja": "アルジェリア",
+        "zh-CN": "阿尔及利亚",
+        "zh-TW": "阿爾及利亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-016",
+      "kind": "area",
+      "parent_id": "place-m49-061",
+      "m49_code": "016",
+      "iso_alpha2": "AS",
+      "iso_alpha3": "ASM",
+      "names": {
+        "en": "American Samoa",
+        "ja": "米領サモア",
+        "zh-CN": "美属萨摩亚",
+        "zh-TW": "美屬薩摩亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-020",
+      "kind": "area",
+      "parent_id": "place-m49-039",
+      "m49_code": "020",
+      "iso_alpha2": "AD",
+      "iso_alpha3": "AND",
+      "names": {
+        "en": "Andorra",
+        "ja": "アンドラ",
+        "zh-CN": "安道尔",
+        "zh-TW": "安道爾"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-024",
+      "kind": "area",
+      "parent_id": "place-m49-017",
+      "m49_code": "024",
+      "iso_alpha2": "AO",
+      "iso_alpha3": "AGO",
+      "names": {
+        "en": "Angola",
+        "ja": "アンゴラ",
+        "zh-CN": "安哥拉",
+        "zh-TW": "安哥拉"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-028",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "028",
+      "iso_alpha2": "AG",
+      "iso_alpha3": "ATG",
+      "names": {
+        "en": "Antigua & Barbuda",
+        "ja": "アンティグア・バーブーダ",
+        "zh-CN": "安提瓜和巴布达",
+        "zh-TW": "安地卡及巴布達"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-031",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "031",
+      "iso_alpha2": "AZ",
+      "iso_alpha3": "AZE",
+      "names": {
+        "en": "Azerbaijan",
+        "ja": "アゼルバイジャン",
+        "zh-CN": "阿塞拜疆",
+        "zh-TW": "亞塞拜然"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-032",
+      "kind": "area",
+      "parent_id": "place-m49-005",
+      "m49_code": "032",
+      "iso_alpha2": "AR",
+      "iso_alpha3": "ARG",
+      "names": {
+        "en": "Argentina",
+        "ja": "アルゼンチン",
+        "zh-CN": "阿根廷",
+        "zh-TW": "阿根廷"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-036",
+      "kind": "area",
+      "parent_id": "place-m49-053",
+      "m49_code": "036",
+      "iso_alpha2": "AU",
+      "iso_alpha3": "AUS",
+      "names": {
+        "en": "Australia",
+        "ja": "オーストラリア",
+        "zh-CN": "澳大利亚",
+        "zh-TW": "澳洲"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-040",
+      "kind": "area",
+      "parent_id": "place-m49-155",
+      "m49_code": "040",
+      "iso_alpha2": "AT",
+      "iso_alpha3": "AUT",
+      "names": {
+        "en": "Austria",
+        "ja": "オーストリア",
+        "zh-CN": "奥地利",
+        "zh-TW": "奧地利"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-044",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "044",
+      "iso_alpha2": "BS",
+      "iso_alpha3": "BHS",
+      "names": {
+        "en": "Bahamas",
+        "ja": "バハマ",
+        "zh-CN": "巴哈马",
+        "zh-TW": "巴哈馬"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-048",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "048",
+      "iso_alpha2": "BH",
+      "iso_alpha3": "BHR",
+      "names": {
+        "en": "Bahrain",
+        "ja": "バーレーン",
+        "zh-CN": "巴林",
+        "zh-TW": "巴林"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-050",
+      "kind": "area",
+      "parent_id": "place-m49-034",
+      "m49_code": "050",
+      "iso_alpha2": "BD",
+      "iso_alpha3": "BGD",
+      "names": {
+        "en": "Bangladesh",
+        "ja": "バングラデシュ",
+        "zh-CN": "孟加拉国",
+        "zh-TW": "孟加拉"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-051",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "051",
+      "iso_alpha2": "AM",
+      "iso_alpha3": "ARM",
+      "names": {
+        "en": "Armenia",
+        "ja": "アルメニア",
+        "zh-CN": "亚美尼亚",
+        "zh-TW": "亞美尼亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-052",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "052",
+      "iso_alpha2": "BB",
+      "iso_alpha3": "BRB",
+      "names": {
+        "en": "Barbados",
+        "ja": "バルバドス",
+        "zh-CN": "巴巴多斯",
+        "zh-TW": "巴貝多"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-056",
+      "kind": "area",
+      "parent_id": "place-m49-155",
+      "m49_code": "056",
+      "iso_alpha2": "BE",
+      "iso_alpha3": "BEL",
+      "names": {
+        "en": "Belgium",
+        "ja": "ベルギー",
+        "zh-CN": "比利时",
+        "zh-TW": "比利時"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-060",
+      "kind": "area",
+      "parent_id": "place-m49-021",
+      "m49_code": "060",
+      "iso_alpha2": "BM",
+      "iso_alpha3": "BMU",
+      "names": {
+        "en": "Bermuda",
+        "ja": "バミューダ",
+        "zh-CN": "百慕大",
+        "zh-TW": "百慕達"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-064",
+      "kind": "area",
+      "parent_id": "place-m49-034",
+      "m49_code": "064",
+      "iso_alpha2": "BT",
+      "iso_alpha3": "BTN",
+      "names": {
+        "en": "Bhutan",
+        "ja": "ブータン",
+        "zh-CN": "不丹",
+        "zh-TW": "不丹"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-068",
+      "kind": "area",
+      "parent_id": "place-m49-005",
+      "m49_code": "068",
+      "iso_alpha2": "BO",
+      "iso_alpha3": "BOL",
+      "names": {
+        "en": "Bolivia",
+        "ja": "ボリビア",
+        "zh-CN": "玻利维亚",
+        "zh-TW": "玻利維亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-070",
+      "kind": "area",
+      "parent_id": "place-m49-039",
+      "m49_code": "070",
+      "iso_alpha2": "BA",
+      "iso_alpha3": "BIH",
+      "names": {
+        "en": "Bosnia & Herzegovina",
+        "ja": "ボスニア・ヘルツェゴビナ",
+        "zh-CN": "波斯尼亚和黑塞哥维那",
+        "zh-TW": "波士尼亞與赫塞哥維納"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-072",
+      "kind": "area",
+      "parent_id": "place-m49-018",
+      "m49_code": "072",
+      "iso_alpha2": "BW",
+      "iso_alpha3": "BWA",
+      "names": {
+        "en": "Botswana",
+        "ja": "ボツワナ",
+        "zh-CN": "博茨瓦纳",
+        "zh-TW": "波札那"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-074",
+      "kind": "area",
+      "parent_id": "place-m49-005",
+      "m49_code": "074",
+      "iso_alpha2": "BV",
+      "iso_alpha3": "BVT",
+      "names": {
+        "en": "Bouvet Island",
+        "ja": "ブーベ島",
+        "zh-CN": "布韦岛",
+        "zh-TW": "布威島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-076",
+      "kind": "area",
+      "parent_id": "place-m49-005",
+      "m49_code": "076",
+      "iso_alpha2": "BR",
+      "iso_alpha3": "BRA",
+      "names": {
+        "en": "Brazil",
+        "ja": "ブラジル",
+        "zh-CN": "巴西",
+        "zh-TW": "巴西"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-084",
+      "kind": "area",
+      "parent_id": "place-m49-013",
+      "m49_code": "084",
+      "iso_alpha2": "BZ",
+      "iso_alpha3": "BLZ",
+      "names": {
+        "en": "Belize",
+        "ja": "ベリーズ",
+        "zh-CN": "伯利兹",
+        "zh-TW": "貝里斯"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-086",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "086",
+      "iso_alpha2": "IO",
+      "iso_alpha3": "IOT",
+      "names": {
+        "en": "British Indian Ocean Territory",
+        "ja": "英領インド洋地域",
+        "zh-CN": "英属印度洋领地",
+        "zh-TW": "英屬印度洋領地"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-090",
+      "kind": "area",
+      "parent_id": "place-m49-054",
+      "m49_code": "090",
+      "iso_alpha2": "SB",
+      "iso_alpha3": "SLB",
+      "names": {
+        "en": "Solomon Islands",
+        "ja": "ソロモン諸島",
+        "zh-CN": "所罗门群岛",
+        "zh-TW": "索羅門群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-092",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "092",
+      "iso_alpha2": "VG",
+      "iso_alpha3": "VGB",
+      "names": {
+        "en": "British Virgin Islands",
+        "ja": "英領ヴァージン諸島",
+        "zh-CN": "英属维尔京群岛",
+        "zh-TW": "英屬維京群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-096",
+      "kind": "area",
+      "parent_id": "place-m49-035",
+      "m49_code": "096",
+      "iso_alpha2": "BN",
+      "iso_alpha3": "BRN",
+      "names": {
+        "en": "Brunei",
+        "ja": "ブルネイ",
+        "zh-CN": "文莱",
+        "zh-TW": "汶萊"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-100",
+      "kind": "area",
+      "parent_id": "place-m49-151",
+      "m49_code": "100",
+      "iso_alpha2": "BG",
+      "iso_alpha3": "BGR",
+      "names": {
+        "en": "Bulgaria",
+        "ja": "ブルガリア",
+        "zh-CN": "保加利亚",
+        "zh-TW": "保加利亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-104",
+      "kind": "area",
+      "parent_id": "place-m49-035",
+      "m49_code": "104",
+      "iso_alpha2": "MM",
+      "iso_alpha3": "MMR",
+      "names": {
+        "en": "Myanmar (Burma)",
+        "ja": "ミャンマー (ビルマ)",
+        "zh-CN": "缅甸",
+        "zh-TW": "緬甸"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-108",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "108",
+      "iso_alpha2": "BI",
+      "iso_alpha3": "BDI",
+      "names": {
+        "en": "Burundi",
+        "ja": "ブルンジ",
+        "zh-CN": "布隆迪",
+        "zh-TW": "蒲隆地"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-112",
+      "kind": "area",
+      "parent_id": "place-m49-151",
+      "m49_code": "112",
+      "iso_alpha2": "BY",
+      "iso_alpha3": "BLR",
+      "names": {
+        "en": "Belarus",
+        "ja": "ベラルーシ",
+        "zh-CN": "白俄罗斯",
+        "zh-TW": "白俄羅斯"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-116",
+      "kind": "area",
+      "parent_id": "place-m49-035",
+      "m49_code": "116",
+      "iso_alpha2": "KH",
+      "iso_alpha3": "KHM",
+      "names": {
+        "en": "Cambodia",
+        "ja": "カンボジア",
+        "zh-CN": "柬埔寨",
+        "zh-TW": "柬埔寨"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-120",
+      "kind": "area",
+      "parent_id": "place-m49-017",
+      "m49_code": "120",
+      "iso_alpha2": "CM",
+      "iso_alpha3": "CMR",
+      "names": {
+        "en": "Cameroon",
+        "ja": "カメルーン",
+        "zh-CN": "喀麦隆",
+        "zh-TW": "喀麥隆"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-124",
+      "kind": "area",
+      "parent_id": "place-m49-021",
+      "m49_code": "124",
+      "iso_alpha2": "CA",
+      "iso_alpha3": "CAN",
+      "names": {
+        "en": "Canada",
+        "ja": "カナダ",
+        "zh-CN": "加拿大",
+        "zh-TW": "加拿大"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-132",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "132",
+      "iso_alpha2": "CV",
+      "iso_alpha3": "CPV",
+      "names": {
+        "en": "Cape Verde",
+        "ja": "カーボベルデ",
+        "zh-CN": "佛得角",
+        "zh-TW": "維德角"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-136",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "136",
+      "iso_alpha2": "KY",
+      "iso_alpha3": "CYM",
+      "names": {
+        "en": "Cayman Islands",
+        "ja": "ケイマン諸島",
+        "zh-CN": "开曼群岛",
+        "zh-TW": "開曼群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-140",
+      "kind": "area",
+      "parent_id": "place-m49-017",
+      "m49_code": "140",
+      "iso_alpha2": "CF",
+      "iso_alpha3": "CAF",
+      "names": {
+        "en": "Central African Republic",
+        "ja": "中央アフリカ共和国",
+        "zh-CN": "中非共和国",
+        "zh-TW": "中非共和國"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-144",
+      "kind": "area",
+      "parent_id": "place-m49-034",
+      "m49_code": "144",
+      "iso_alpha2": "LK",
+      "iso_alpha3": "LKA",
+      "names": {
+        "en": "Sri Lanka",
+        "ja": "スリランカ",
+        "zh-CN": "斯里兰卡",
+        "zh-TW": "斯里蘭卡"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-148",
+      "kind": "area",
+      "parent_id": "place-m49-017",
+      "m49_code": "148",
+      "iso_alpha2": "TD",
+      "iso_alpha3": "TCD",
+      "names": {
+        "en": "Chad",
+        "ja": "チャド",
+        "zh-CN": "乍得",
+        "zh-TW": "查德"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-152",
+      "kind": "area",
+      "parent_id": "place-m49-005",
+      "m49_code": "152",
+      "iso_alpha2": "CL",
+      "iso_alpha3": "CHL",
+      "names": {
+        "en": "Chile",
+        "ja": "チリ",
+        "zh-CN": "智利",
+        "zh-TW": "智利"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-156",
+      "kind": "area",
+      "parent_id": "place-m49-030",
+      "m49_code": "156",
+      "iso_alpha2": "CN",
+      "iso_alpha3": "CHN",
+      "names": {
+        "en": "China",
+        "ja": "中国",
+        "zh-CN": "中国",
+        "zh-TW": "中國"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-162",
+      "kind": "area",
+      "parent_id": "place-m49-053",
+      "m49_code": "162",
+      "iso_alpha2": "CX",
+      "iso_alpha3": "CXR",
+      "names": {
+        "en": "Christmas Island",
+        "ja": "クリスマス島",
+        "zh-CN": "圣诞岛",
+        "zh-TW": "聖誕島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-166",
+      "kind": "area",
+      "parent_id": "place-m49-053",
+      "m49_code": "166",
+      "iso_alpha2": "CC",
+      "iso_alpha3": "CCK",
+      "names": {
+        "en": "Cocos (Keeling) Islands",
+        "ja": "ココス(キーリング)諸島",
+        "zh-CN": "科科斯（基林）群岛",
+        "zh-TW": "科克斯（基靈）群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-170",
+      "kind": "area",
+      "parent_id": "place-m49-005",
+      "m49_code": "170",
+      "iso_alpha2": "CO",
+      "iso_alpha3": "COL",
+      "names": {
+        "en": "Colombia",
+        "ja": "コロンビア",
+        "zh-CN": "哥伦比亚",
+        "zh-TW": "哥倫比亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-174",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "174",
+      "iso_alpha2": "KM",
+      "iso_alpha3": "COM",
+      "names": {
+        "en": "Comoros",
+        "ja": "コモロ",
+        "zh-CN": "科摩罗",
+        "zh-TW": "葛摩"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-175",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "175",
+      "iso_alpha2": "YT",
+      "iso_alpha3": "MYT",
+      "names": {
+        "en": "Mayotte",
+        "ja": "マヨット",
+        "zh-CN": "马约特",
+        "zh-TW": "馬約特島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-178",
+      "kind": "area",
+      "parent_id": "place-m49-017",
+      "m49_code": "178",
+      "iso_alpha2": "CG",
+      "iso_alpha3": "COG",
+      "names": {
+        "en": "Congo - Brazzaville",
+        "ja": "コンゴ共和国(ブラザビル)",
+        "zh-CN": "刚果（布）",
+        "zh-TW": "剛果（布拉薩）"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-180",
+      "kind": "area",
+      "parent_id": "place-m49-017",
+      "m49_code": "180",
+      "iso_alpha2": "CD",
+      "iso_alpha3": "COD",
+      "names": {
+        "en": "Congo - Kinshasa",
+        "ja": "コンゴ民主共和国(キンシャサ)",
+        "zh-CN": "刚果（金）",
+        "zh-TW": "剛果（金夏沙）"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-184",
+      "kind": "area",
+      "parent_id": "place-m49-061",
+      "m49_code": "184",
+      "iso_alpha2": "CK",
+      "iso_alpha3": "COK",
+      "names": {
+        "en": "Cook Islands",
+        "ja": "クック諸島",
+        "zh-CN": "库克群岛",
+        "zh-TW": "庫克群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-188",
+      "kind": "area",
+      "parent_id": "place-m49-013",
+      "m49_code": "188",
+      "iso_alpha2": "CR",
+      "iso_alpha3": "CRI",
+      "names": {
+        "en": "Costa Rica",
+        "ja": "コスタリカ",
+        "zh-CN": "哥斯达黎加",
+        "zh-TW": "哥斯大黎加"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-191",
+      "kind": "area",
+      "parent_id": "place-m49-039",
+      "m49_code": "191",
+      "iso_alpha2": "HR",
+      "iso_alpha3": "HRV",
+      "names": {
+        "en": "Croatia",
+        "ja": "クロアチア",
+        "zh-CN": "克罗地亚",
+        "zh-TW": "克羅埃西亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-192",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "192",
+      "iso_alpha2": "CU",
+      "iso_alpha3": "CUB",
+      "names": {
+        "en": "Cuba",
+        "ja": "キューバ",
+        "zh-CN": "古巴",
+        "zh-TW": "古巴"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-196",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "196",
+      "iso_alpha2": "CY",
+      "iso_alpha3": "CYP",
+      "names": {
+        "en": "Cyprus",
+        "ja": "キプロス",
+        "zh-CN": "塞浦路斯",
+        "zh-TW": "賽普勒斯"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-203",
+      "kind": "area",
+      "parent_id": "place-m49-151",
+      "m49_code": "203",
+      "iso_alpha2": "CZ",
+      "iso_alpha3": "CZE",
+      "names": {
+        "en": "Czechia",
+        "ja": "チェコ",
+        "zh-CN": "捷克",
+        "zh-TW": "捷克"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-204",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "204",
+      "iso_alpha2": "BJ",
+      "iso_alpha3": "BEN",
+      "names": {
+        "en": "Benin",
+        "ja": "ベナン",
+        "zh-CN": "贝宁",
+        "zh-TW": "貝南"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-208",
+      "kind": "area",
+      "parent_id": "place-m49-154",
+      "m49_code": "208",
+      "iso_alpha2": "DK",
+      "iso_alpha3": "DNK",
+      "names": {
+        "en": "Denmark",
+        "ja": "デンマーク",
+        "zh-CN": "丹麦",
+        "zh-TW": "丹麥"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-212",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "212",
+      "iso_alpha2": "DM",
+      "iso_alpha3": "DMA",
+      "names": {
+        "en": "Dominica",
+        "ja": "ドミニカ国",
+        "zh-CN": "多米尼克",
+        "zh-TW": "多米尼克"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-214",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "214",
+      "iso_alpha2": "DO",
+      "iso_alpha3": "DOM",
+      "names": {
+        "en": "Dominican Republic",
+        "ja": "ドミニカ共和国",
+        "zh-CN": "多米尼加共和国",
+        "zh-TW": "多明尼加共和國"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-218",
+      "kind": "area",
+      "parent_id": "place-m49-005",
+      "m49_code": "218",
+      "iso_alpha2": "EC",
+      "iso_alpha3": "ECU",
+      "names": {
+        "en": "Ecuador",
+        "ja": "エクアドル",
+        "zh-CN": "厄瓜多尔",
+        "zh-TW": "厄瓜多"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-222",
+      "kind": "area",
+      "parent_id": "place-m49-013",
+      "m49_code": "222",
+      "iso_alpha2": "SV",
+      "iso_alpha3": "SLV",
+      "names": {
+        "en": "El Salvador",
+        "ja": "エルサルバドル",
+        "zh-CN": "萨尔瓦多",
+        "zh-TW": "薩爾瓦多"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-226",
+      "kind": "area",
+      "parent_id": "place-m49-017",
+      "m49_code": "226",
+      "iso_alpha2": "GQ",
+      "iso_alpha3": "GNQ",
+      "names": {
+        "en": "Equatorial Guinea",
+        "ja": "赤道ギニア",
+        "zh-CN": "赤道几内亚",
+        "zh-TW": "赤道幾內亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-231",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "231",
+      "iso_alpha2": "ET",
+      "iso_alpha3": "ETH",
+      "names": {
+        "en": "Ethiopia",
+        "ja": "エチオピア",
+        "zh-CN": "埃塞俄比亚",
+        "zh-TW": "衣索比亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-232",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "232",
+      "iso_alpha2": "ER",
+      "iso_alpha3": "ERI",
+      "names": {
+        "en": "Eritrea",
+        "ja": "エリトリア",
+        "zh-CN": "厄立特里亚",
+        "zh-TW": "厄利垂亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-233",
+      "kind": "area",
+      "parent_id": "place-m49-154",
+      "m49_code": "233",
+      "iso_alpha2": "EE",
+      "iso_alpha3": "EST",
+      "names": {
+        "en": "Estonia",
+        "ja": "エストニア",
+        "zh-CN": "爱沙尼亚",
+        "zh-TW": "愛沙尼亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-234",
+      "kind": "area",
+      "parent_id": "place-m49-154",
+      "m49_code": "234",
+      "iso_alpha2": "FO",
+      "iso_alpha3": "FRO",
+      "names": {
+        "en": "Faroe Islands",
+        "ja": "フェロー諸島",
+        "zh-CN": "法罗群岛",
+        "zh-TW": "法羅群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-238",
+      "kind": "area",
+      "parent_id": "place-m49-005",
+      "m49_code": "238",
+      "iso_alpha2": "FK",
+      "iso_alpha3": "FLK",
+      "names": {
+        "en": "Falkland Islands",
+        "ja": "フォークランド諸島",
+        "zh-CN": "福克兰群岛",
+        "zh-TW": "福克蘭群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-239",
+      "kind": "area",
+      "parent_id": "place-m49-005",
+      "m49_code": "239",
+      "iso_alpha2": "GS",
+      "iso_alpha3": "SGS",
+      "names": {
+        "en": "South Georgia & South Sandwich Islands",
+        "ja": "サウスジョージア・サウスサンドウィッチ諸島",
+        "zh-CN": "南乔治亚和南桑威奇群岛",
+        "zh-TW": "南喬治亞與南三明治群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-242",
+      "kind": "area",
+      "parent_id": "place-m49-054",
+      "m49_code": "242",
+      "iso_alpha2": "FJ",
+      "iso_alpha3": "FJI",
+      "names": {
+        "en": "Fiji",
+        "ja": "フィジー",
+        "zh-CN": "斐济",
+        "zh-TW": "斐濟"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-246",
+      "kind": "area",
+      "parent_id": "place-m49-154",
+      "m49_code": "246",
+      "iso_alpha2": "FI",
+      "iso_alpha3": "FIN",
+      "names": {
+        "en": "Finland",
+        "ja": "フィンランド",
+        "zh-CN": "芬兰",
+        "zh-TW": "芬蘭"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-248",
+      "kind": "area",
+      "parent_id": "place-m49-154",
+      "m49_code": "248",
+      "iso_alpha2": "AX",
+      "iso_alpha3": "ALA",
+      "names": {
+        "en": "Åland Islands",
+        "ja": "オーランド諸島",
+        "zh-CN": "奥兰群岛",
+        "zh-TW": "奧蘭群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-250",
+      "kind": "area",
+      "parent_id": "place-m49-155",
+      "m49_code": "250",
+      "iso_alpha2": "FR",
+      "iso_alpha3": "FRA",
+      "names": {
+        "en": "France",
+        "ja": "フランス",
+        "zh-CN": "法国",
+        "zh-TW": "法國"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-254",
+      "kind": "area",
+      "parent_id": "place-m49-005",
+      "m49_code": "254",
+      "iso_alpha2": "GF",
+      "iso_alpha3": "GUF",
+      "names": {
+        "en": "French Guiana",
+        "ja": "仏領ギアナ",
+        "zh-CN": "法属圭亚那",
+        "zh-TW": "法屬圭亞那"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-258",
+      "kind": "area",
+      "parent_id": "place-m49-061",
+      "m49_code": "258",
+      "iso_alpha2": "PF",
+      "iso_alpha3": "PYF",
+      "names": {
+        "en": "French Polynesia",
+        "ja": "仏領ポリネシア",
+        "zh-CN": "法属波利尼西亚",
+        "zh-TW": "法屬玻里尼西亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-260",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "260",
+      "iso_alpha2": "TF",
+      "iso_alpha3": "ATF",
+      "names": {
+        "en": "French Southern Territories",
+        "ja": "仏領極南諸島",
+        "zh-CN": "法属南部领地",
+        "zh-TW": "法屬南部屬地"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-262",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "262",
+      "iso_alpha2": "DJ",
+      "iso_alpha3": "DJI",
+      "names": {
+        "en": "Djibouti",
+        "ja": "ジブチ",
+        "zh-CN": "吉布提",
+        "zh-TW": "吉布地"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-266",
+      "kind": "area",
+      "parent_id": "place-m49-017",
+      "m49_code": "266",
+      "iso_alpha2": "GA",
+      "iso_alpha3": "GAB",
+      "names": {
+        "en": "Gabon",
+        "ja": "ガボン",
+        "zh-CN": "加蓬",
+        "zh-TW": "加彭"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-268",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "268",
+      "iso_alpha2": "GE",
+      "iso_alpha3": "GEO",
+      "names": {
+        "en": "Georgia",
+        "ja": "ジョージア",
+        "zh-CN": "格鲁吉亚",
+        "zh-TW": "喬治亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-270",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "270",
+      "iso_alpha2": "GM",
+      "iso_alpha3": "GMB",
+      "names": {
+        "en": "Gambia",
+        "ja": "ガンビア",
+        "zh-CN": "冈比亚",
+        "zh-TW": "甘比亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-275",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "275",
+      "iso_alpha2": "PS",
+      "iso_alpha3": "PSE",
+      "names": {
+        "en": "Palestinian Territories",
+        "ja": "パレスチナ自治区",
+        "zh-CN": "巴勒斯坦领土",
+        "zh-TW": "巴勒斯坦自治區"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-276",
+      "kind": "area",
+      "parent_id": "place-m49-155",
+      "m49_code": "276",
+      "iso_alpha2": "DE",
+      "iso_alpha3": "DEU",
+      "names": {
+        "en": "Germany",
+        "ja": "ドイツ",
+        "zh-CN": "德国",
+        "zh-TW": "德國"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-288",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "288",
+      "iso_alpha2": "GH",
+      "iso_alpha3": "GHA",
+      "names": {
+        "en": "Ghana",
+        "ja": "ガーナ",
+        "zh-CN": "加纳",
+        "zh-TW": "迦納"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-292",
+      "kind": "area",
+      "parent_id": "place-m49-039",
+      "m49_code": "292",
+      "iso_alpha2": "GI",
+      "iso_alpha3": "GIB",
+      "names": {
+        "en": "Gibraltar",
+        "ja": "ジブラルタル",
+        "zh-CN": "直布罗陀",
+        "zh-TW": "直布羅陀"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-296",
+      "kind": "area",
+      "parent_id": "place-m49-057",
+      "m49_code": "296",
+      "iso_alpha2": "KI",
+      "iso_alpha3": "KIR",
+      "names": {
+        "en": "Kiribati",
+        "ja": "キリバス",
+        "zh-CN": "基里巴斯",
+        "zh-TW": "吉里巴斯"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-300",
+      "kind": "area",
+      "parent_id": "place-m49-039",
+      "m49_code": "300",
+      "iso_alpha2": "GR",
+      "iso_alpha3": "GRC",
+      "names": {
+        "en": "Greece",
+        "ja": "ギリシャ",
+        "zh-CN": "希腊",
+        "zh-TW": "希臘"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-304",
+      "kind": "area",
+      "parent_id": "place-m49-021",
+      "m49_code": "304",
+      "iso_alpha2": "GL",
+      "iso_alpha3": "GRL",
+      "names": {
+        "en": "Greenland",
+        "ja": "グリーンランド",
+        "zh-CN": "格陵兰",
+        "zh-TW": "格陵蘭"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-308",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "308",
+      "iso_alpha2": "GD",
+      "iso_alpha3": "GRD",
+      "names": {
+        "en": "Grenada",
+        "ja": "グレナダ",
+        "zh-CN": "格林纳达",
+        "zh-TW": "格瑞那達"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-312",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "312",
+      "iso_alpha2": "GP",
+      "iso_alpha3": "GLP",
+      "names": {
+        "en": "Guadeloupe",
+        "ja": "グアドループ",
+        "zh-CN": "瓜德罗普",
+        "zh-TW": "瓜地洛普"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-316",
+      "kind": "area",
+      "parent_id": "place-m49-057",
+      "m49_code": "316",
+      "iso_alpha2": "GU",
+      "iso_alpha3": "GUM",
+      "names": {
+        "en": "Guam",
+        "ja": "グアム",
+        "zh-CN": "关岛",
+        "zh-TW": "關島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-320",
+      "kind": "area",
+      "parent_id": "place-m49-013",
+      "m49_code": "320",
+      "iso_alpha2": "GT",
+      "iso_alpha3": "GTM",
+      "names": {
+        "en": "Guatemala",
+        "ja": "グアテマラ",
+        "zh-CN": "危地马拉",
+        "zh-TW": "瓜地馬拉"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-324",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "324",
+      "iso_alpha2": "GN",
+      "iso_alpha3": "GIN",
+      "names": {
+        "en": "Guinea",
+        "ja": "ギニア",
+        "zh-CN": "几内亚",
+        "zh-TW": "幾內亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-328",
+      "kind": "area",
+      "parent_id": "place-m49-005",
+      "m49_code": "328",
+      "iso_alpha2": "GY",
+      "iso_alpha3": "GUY",
+      "names": {
+        "en": "Guyana",
+        "ja": "ガイアナ",
+        "zh-CN": "圭亚那",
+        "zh-TW": "蓋亞那"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-332",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "332",
+      "iso_alpha2": "HT",
+      "iso_alpha3": "HTI",
+      "names": {
+        "en": "Haiti",
+        "ja": "ハイチ",
+        "zh-CN": "海地",
+        "zh-TW": "海地"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-334",
+      "kind": "area",
+      "parent_id": "place-m49-053",
+      "m49_code": "334",
+      "iso_alpha2": "HM",
+      "iso_alpha3": "HMD",
+      "names": {
+        "en": "Heard & McDonald Islands",
+        "ja": "ハード島・マクドナルド諸島",
+        "zh-CN": "赫德岛和麦克唐纳群岛",
+        "zh-TW": "赫德島及麥唐納群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-336",
+      "kind": "area",
+      "parent_id": "place-m49-039",
+      "m49_code": "336",
+      "iso_alpha2": "VA",
+      "iso_alpha3": "VAT",
+      "names": {
+        "en": "Vatican City",
+        "ja": "バチカン市国",
+        "zh-CN": "梵蒂冈",
+        "zh-TW": "梵蒂岡"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-340",
+      "kind": "area",
+      "parent_id": "place-m49-013",
+      "m49_code": "340",
+      "iso_alpha2": "HN",
+      "iso_alpha3": "HND",
+      "names": {
+        "en": "Honduras",
+        "ja": "ホンジュラス",
+        "zh-CN": "洪都拉斯",
+        "zh-TW": "宏都拉斯"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-344",
+      "kind": "area",
+      "parent_id": "place-m49-030",
+      "m49_code": "344",
+      "iso_alpha2": "HK",
+      "iso_alpha3": "HKG",
+      "names": {
+        "en": "Hong Kong SAR China",
+        "ja": "中華人民共和国香港特別行政区",
+        "zh-CN": "中国香港特别行政区",
+        "zh-TW": "中國香港特別行政區"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-348",
+      "kind": "area",
+      "parent_id": "place-m49-151",
+      "m49_code": "348",
+      "iso_alpha2": "HU",
+      "iso_alpha3": "HUN",
+      "names": {
+        "en": "Hungary",
+        "ja": "ハンガリー",
+        "zh-CN": "匈牙利",
+        "zh-TW": "匈牙利"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-352",
+      "kind": "area",
+      "parent_id": "place-m49-154",
+      "m49_code": "352",
+      "iso_alpha2": "IS",
+      "iso_alpha3": "ISL",
+      "names": {
+        "en": "Iceland",
+        "ja": "アイスランド",
+        "zh-CN": "冰岛",
+        "zh-TW": "冰島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-356",
+      "kind": "area",
+      "parent_id": "place-m49-034",
+      "m49_code": "356",
+      "iso_alpha2": "IN",
+      "iso_alpha3": "IND",
+      "names": {
+        "en": "India",
+        "ja": "インド",
+        "zh-CN": "印度",
+        "zh-TW": "印度"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-360",
+      "kind": "area",
+      "parent_id": "place-m49-035",
+      "m49_code": "360",
+      "iso_alpha2": "ID",
+      "iso_alpha3": "IDN",
+      "names": {
+        "en": "Indonesia",
+        "ja": "インドネシア",
+        "zh-CN": "印度尼西亚",
+        "zh-TW": "印尼"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-364",
+      "kind": "area",
+      "parent_id": "place-m49-034",
+      "m49_code": "364",
+      "iso_alpha2": "IR",
+      "iso_alpha3": "IRN",
+      "names": {
+        "en": "Iran",
+        "ja": "イラン",
+        "zh-CN": "伊朗",
+        "zh-TW": "伊朗"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-368",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "368",
+      "iso_alpha2": "IQ",
+      "iso_alpha3": "IRQ",
+      "names": {
+        "en": "Iraq",
+        "ja": "イラク",
+        "zh-CN": "伊拉克",
+        "zh-TW": "伊拉克"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-372",
+      "kind": "area",
+      "parent_id": "place-m49-154",
+      "m49_code": "372",
+      "iso_alpha2": "IE",
+      "iso_alpha3": "IRL",
+      "names": {
+        "en": "Ireland",
+        "ja": "アイルランド",
+        "zh-CN": "爱尔兰",
+        "zh-TW": "愛爾蘭"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-376",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "376",
+      "iso_alpha2": "IL",
+      "iso_alpha3": "ISR",
+      "names": {
+        "en": "Israel",
+        "ja": "イスラエル",
+        "zh-CN": "以色列",
+        "zh-TW": "以色列"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-380",
+      "kind": "area",
+      "parent_id": "place-m49-039",
+      "m49_code": "380",
+      "iso_alpha2": "IT",
+      "iso_alpha3": "ITA",
+      "names": {
+        "en": "Italy",
+        "ja": "イタリア",
+        "zh-CN": "意大利",
+        "zh-TW": "義大利"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-384",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "384",
+      "iso_alpha2": "CI",
+      "iso_alpha3": "CIV",
+      "names": {
+        "en": "Côte d’Ivoire",
+        "ja": "コートジボワール",
+        "zh-CN": "科特迪瓦",
+        "zh-TW": "象牙海岸"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-388",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "388",
+      "iso_alpha2": "JM",
+      "iso_alpha3": "JAM",
+      "names": {
+        "en": "Jamaica",
+        "ja": "ジャマイカ",
+        "zh-CN": "牙买加",
+        "zh-TW": "牙買加"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-392",
+      "kind": "area",
+      "parent_id": "place-m49-030",
+      "m49_code": "392",
+      "iso_alpha2": "JP",
+      "iso_alpha3": "JPN",
+      "names": {
+        "en": "Japan",
+        "ja": "日本",
+        "zh-CN": "日本",
+        "zh-TW": "日本"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-398",
+      "kind": "area",
+      "parent_id": "place-m49-143",
+      "m49_code": "398",
+      "iso_alpha2": "KZ",
+      "iso_alpha3": "KAZ",
+      "names": {
+        "en": "Kazakhstan",
+        "ja": "カザフスタン",
+        "zh-CN": "哈萨克斯坦",
+        "zh-TW": "哈薩克"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-400",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "400",
+      "iso_alpha2": "JO",
+      "iso_alpha3": "JOR",
+      "names": {
+        "en": "Jordan",
+        "ja": "ヨルダン",
+        "zh-CN": "约旦",
+        "zh-TW": "約旦"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-404",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "404",
+      "iso_alpha2": "KE",
+      "iso_alpha3": "KEN",
+      "names": {
+        "en": "Kenya",
+        "ja": "ケニア",
+        "zh-CN": "肯尼亚",
+        "zh-TW": "肯亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-408",
+      "kind": "area",
+      "parent_id": "place-m49-030",
+      "m49_code": "408",
+      "iso_alpha2": "KP",
+      "iso_alpha3": "PRK",
+      "names": {
+        "en": "North Korea",
+        "ja": "北朝鮮",
+        "zh-CN": "朝鲜",
+        "zh-TW": "北韓"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-410",
+      "kind": "area",
+      "parent_id": "place-m49-030",
+      "m49_code": "410",
+      "iso_alpha2": "KR",
+      "iso_alpha3": "KOR",
+      "names": {
+        "en": "South Korea",
+        "ja": "韓国",
+        "zh-CN": "韩国",
+        "zh-TW": "南韓"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-414",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "414",
+      "iso_alpha2": "KW",
+      "iso_alpha3": "KWT",
+      "names": {
+        "en": "Kuwait",
+        "ja": "クウェート",
+        "zh-CN": "科威特",
+        "zh-TW": "科威特"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-417",
+      "kind": "area",
+      "parent_id": "place-m49-143",
+      "m49_code": "417",
+      "iso_alpha2": "KG",
+      "iso_alpha3": "KGZ",
+      "names": {
+        "en": "Kyrgyzstan",
+        "ja": "キルギス",
+        "zh-CN": "吉尔吉斯斯坦",
+        "zh-TW": "吉爾吉斯"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-418",
+      "kind": "area",
+      "parent_id": "place-m49-035",
+      "m49_code": "418",
+      "iso_alpha2": "LA",
+      "iso_alpha3": "LAO",
+      "names": {
+        "en": "Laos",
+        "ja": "ラオス",
+        "zh-CN": "老挝",
+        "zh-TW": "寮國"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-422",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "422",
+      "iso_alpha2": "LB",
+      "iso_alpha3": "LBN",
+      "names": {
+        "en": "Lebanon",
+        "ja": "レバノン",
+        "zh-CN": "黎巴嫩",
+        "zh-TW": "黎巴嫩"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-426",
+      "kind": "area",
+      "parent_id": "place-m49-018",
+      "m49_code": "426",
+      "iso_alpha2": "LS",
+      "iso_alpha3": "LSO",
+      "names": {
+        "en": "Lesotho",
+        "ja": "レソト",
+        "zh-CN": "莱索托",
+        "zh-TW": "賴索托"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-428",
+      "kind": "area",
+      "parent_id": "place-m49-154",
+      "m49_code": "428",
+      "iso_alpha2": "LV",
+      "iso_alpha3": "LVA",
+      "names": {
+        "en": "Latvia",
+        "ja": "ラトビア",
+        "zh-CN": "拉脱维亚",
+        "zh-TW": "拉脫維亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-430",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "430",
+      "iso_alpha2": "LR",
+      "iso_alpha3": "LBR",
+      "names": {
+        "en": "Liberia",
+        "ja": "リベリア",
+        "zh-CN": "利比里亚",
+        "zh-TW": "賴比瑞亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-434",
+      "kind": "area",
+      "parent_id": "place-m49-015",
+      "m49_code": "434",
+      "iso_alpha2": "LY",
+      "iso_alpha3": "LBY",
+      "names": {
+        "en": "Libya",
+        "ja": "リビア",
+        "zh-CN": "利比亚",
+        "zh-TW": "利比亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-438",
+      "kind": "area",
+      "parent_id": "place-m49-155",
+      "m49_code": "438",
+      "iso_alpha2": "LI",
+      "iso_alpha3": "LIE",
+      "names": {
+        "en": "Liechtenstein",
+        "ja": "リヒテンシュタイン",
+        "zh-CN": "列支敦士登",
+        "zh-TW": "列支敦斯登"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-440",
+      "kind": "area",
+      "parent_id": "place-m49-154",
+      "m49_code": "440",
+      "iso_alpha2": "LT",
+      "iso_alpha3": "LTU",
+      "names": {
+        "en": "Lithuania",
+        "ja": "リトアニア",
+        "zh-CN": "立陶宛",
+        "zh-TW": "立陶宛"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-442",
+      "kind": "area",
+      "parent_id": "place-m49-155",
+      "m49_code": "442",
+      "iso_alpha2": "LU",
+      "iso_alpha3": "LUX",
+      "names": {
+        "en": "Luxembourg",
+        "ja": "ルクセンブルク",
+        "zh-CN": "卢森堡",
+        "zh-TW": "盧森堡"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-446",
+      "kind": "area",
+      "parent_id": "place-m49-030",
+      "m49_code": "446",
+      "iso_alpha2": "MO",
+      "iso_alpha3": "MAC",
+      "names": {
+        "en": "Macao SAR China",
+        "ja": "中華人民共和国マカオ特別行政区",
+        "zh-CN": "中国澳门特别行政区",
+        "zh-TW": "中國澳門特別行政區"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-450",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "450",
+      "iso_alpha2": "MG",
+      "iso_alpha3": "MDG",
+      "names": {
+        "en": "Madagascar",
+        "ja": "マダガスカル",
+        "zh-CN": "马达加斯加",
+        "zh-TW": "馬達加斯加"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-454",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "454",
+      "iso_alpha2": "MW",
+      "iso_alpha3": "MWI",
+      "names": {
+        "en": "Malawi",
+        "ja": "マラウイ",
+        "zh-CN": "马拉维",
+        "zh-TW": "馬拉威"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-458",
+      "kind": "area",
+      "parent_id": "place-m49-035",
+      "m49_code": "458",
+      "iso_alpha2": "MY",
+      "iso_alpha3": "MYS",
+      "names": {
+        "en": "Malaysia",
+        "ja": "マレーシア",
+        "zh-CN": "马来西亚",
+        "zh-TW": "馬來西亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-462",
+      "kind": "area",
+      "parent_id": "place-m49-034",
+      "m49_code": "462",
+      "iso_alpha2": "MV",
+      "iso_alpha3": "MDV",
+      "names": {
+        "en": "Maldives",
+        "ja": "モルディブ",
+        "zh-CN": "马尔代夫",
+        "zh-TW": "馬爾地夫"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-466",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "466",
+      "iso_alpha2": "ML",
+      "iso_alpha3": "MLI",
+      "names": {
+        "en": "Mali",
+        "ja": "マリ",
+        "zh-CN": "马里",
+        "zh-TW": "馬利"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-470",
+      "kind": "area",
+      "parent_id": "place-m49-039",
+      "m49_code": "470",
+      "iso_alpha2": "MT",
+      "iso_alpha3": "MLT",
+      "names": {
+        "en": "Malta",
+        "ja": "マルタ",
+        "zh-CN": "马耳他",
+        "zh-TW": "馬爾他"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-474",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "474",
+      "iso_alpha2": "MQ",
+      "iso_alpha3": "MTQ",
+      "names": {
+        "en": "Martinique",
+        "ja": "マルティニーク",
+        "zh-CN": "马提尼克",
+        "zh-TW": "馬丁尼克"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-478",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "478",
+      "iso_alpha2": "MR",
+      "iso_alpha3": "MRT",
+      "names": {
+        "en": "Mauritania",
+        "ja": "モーリタニア",
+        "zh-CN": "毛里塔尼亚",
+        "zh-TW": "茅利塔尼亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-480",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "480",
+      "iso_alpha2": "MU",
+      "iso_alpha3": "MUS",
+      "names": {
+        "en": "Mauritius",
+        "ja": "モーリシャス",
+        "zh-CN": "毛里求斯",
+        "zh-TW": "模里西斯"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-484",
+      "kind": "area",
+      "parent_id": "place-m49-013",
+      "m49_code": "484",
+      "iso_alpha2": "MX",
+      "iso_alpha3": "MEX",
+      "names": {
+        "en": "Mexico",
+        "ja": "メキシコ",
+        "zh-CN": "墨西哥",
+        "zh-TW": "墨西哥"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-492",
+      "kind": "area",
+      "parent_id": "place-m49-155",
+      "m49_code": "492",
+      "iso_alpha2": "MC",
+      "iso_alpha3": "MCO",
+      "names": {
+        "en": "Monaco",
+        "ja": "モナコ",
+        "zh-CN": "摩纳哥",
+        "zh-TW": "摩納哥"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-496",
+      "kind": "area",
+      "parent_id": "place-m49-030",
+      "m49_code": "496",
+      "iso_alpha2": "MN",
+      "iso_alpha3": "MNG",
+      "names": {
+        "en": "Mongolia",
+        "ja": "モンゴル",
+        "zh-CN": "蒙古",
+        "zh-TW": "蒙古"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-498",
+      "kind": "area",
+      "parent_id": "place-m49-151",
+      "m49_code": "498",
+      "iso_alpha2": "MD",
+      "iso_alpha3": "MDA",
+      "names": {
+        "en": "Moldova",
+        "ja": "モルドバ",
+        "zh-CN": "摩尔多瓦",
+        "zh-TW": "摩爾多瓦"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-499",
+      "kind": "area",
+      "parent_id": "place-m49-039",
+      "m49_code": "499",
+      "iso_alpha2": "ME",
+      "iso_alpha3": "MNE",
+      "names": {
+        "en": "Montenegro",
+        "ja": "モンテネグロ",
+        "zh-CN": "黑山",
+        "zh-TW": "蒙特內哥羅"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-500",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "500",
+      "iso_alpha2": "MS",
+      "iso_alpha3": "MSR",
+      "names": {
+        "en": "Montserrat",
+        "ja": "モントセラト",
+        "zh-CN": "蒙特塞拉特",
+        "zh-TW": "蒙哲臘"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-504",
+      "kind": "area",
+      "parent_id": "place-m49-015",
+      "m49_code": "504",
+      "iso_alpha2": "MA",
+      "iso_alpha3": "MAR",
+      "names": {
+        "en": "Morocco",
+        "ja": "モロッコ",
+        "zh-CN": "摩洛哥",
+        "zh-TW": "摩洛哥"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-508",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "508",
+      "iso_alpha2": "MZ",
+      "iso_alpha3": "MOZ",
+      "names": {
+        "en": "Mozambique",
+        "ja": "モザンビーク",
+        "zh-CN": "莫桑比克",
+        "zh-TW": "莫三比克"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-512",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "512",
+      "iso_alpha2": "OM",
+      "iso_alpha3": "OMN",
+      "names": {
+        "en": "Oman",
+        "ja": "オマーン",
+        "zh-CN": "阿曼",
+        "zh-TW": "阿曼"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-516",
+      "kind": "area",
+      "parent_id": "place-m49-018",
+      "m49_code": "516",
+      "iso_alpha2": "NA",
+      "iso_alpha3": "NAM",
+      "names": {
+        "en": "Namibia",
+        "ja": "ナミビア",
+        "zh-CN": "纳米比亚",
+        "zh-TW": "納米比亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-520",
+      "kind": "area",
+      "parent_id": "place-m49-057",
+      "m49_code": "520",
+      "iso_alpha2": "NR",
+      "iso_alpha3": "NRU",
+      "names": {
+        "en": "Nauru",
+        "ja": "ナウル",
+        "zh-CN": "瑙鲁",
+        "zh-TW": "諾魯"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-524",
+      "kind": "area",
+      "parent_id": "place-m49-034",
+      "m49_code": "524",
+      "iso_alpha2": "NP",
+      "iso_alpha3": "NPL",
+      "names": {
+        "en": "Nepal",
+        "ja": "ネパール",
+        "zh-CN": "尼泊尔",
+        "zh-TW": "尼泊爾"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-528",
+      "kind": "area",
+      "parent_id": "place-m49-155",
+      "m49_code": "528",
+      "iso_alpha2": "NL",
+      "iso_alpha3": "NLD",
+      "names": {
+        "en": "Netherlands",
+        "ja": "オランダ",
+        "zh-CN": "荷兰",
+        "zh-TW": "荷蘭"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-531",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "531",
+      "iso_alpha2": "CW",
+      "iso_alpha3": "CUW",
+      "names": {
+        "en": "Curaçao",
+        "ja": "キュラソー",
+        "zh-CN": "库拉索",
+        "zh-TW": "庫拉索"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-533",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "533",
+      "iso_alpha2": "AW",
+      "iso_alpha3": "ABW",
+      "names": {
+        "en": "Aruba",
+        "ja": "アルバ",
+        "zh-CN": "阿鲁巴",
+        "zh-TW": "荷屬阿魯巴"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-534",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "534",
+      "iso_alpha2": "SX",
+      "iso_alpha3": "SXM",
+      "names": {
+        "en": "Sint Maarten",
+        "ja": "シント・マールテン",
+        "zh-CN": "荷属圣马丁",
+        "zh-TW": "荷屬聖馬丁"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-535",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "535",
+      "iso_alpha2": "BQ",
+      "iso_alpha3": "BES",
+      "names": {
+        "en": "Caribbean Netherlands",
+        "ja": "オランダ領カリブ",
+        "zh-CN": "荷属加勒比区",
+        "zh-TW": "荷蘭加勒比區"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-540",
+      "kind": "area",
+      "parent_id": "place-m49-054",
+      "m49_code": "540",
+      "iso_alpha2": "NC",
+      "iso_alpha3": "NCL",
+      "names": {
+        "en": "New Caledonia",
+        "ja": "ニューカレドニア",
+        "zh-CN": "新喀里多尼亚",
+        "zh-TW": "新喀里多尼亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-548",
+      "kind": "area",
+      "parent_id": "place-m49-054",
+      "m49_code": "548",
+      "iso_alpha2": "VU",
+      "iso_alpha3": "VUT",
+      "names": {
+        "en": "Vanuatu",
+        "ja": "バヌアツ",
+        "zh-CN": "瓦努阿图",
+        "zh-TW": "萬那杜"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-554",
+      "kind": "area",
+      "parent_id": "place-m49-053",
+      "m49_code": "554",
+      "iso_alpha2": "NZ",
+      "iso_alpha3": "NZL",
+      "names": {
+        "en": "New Zealand",
+        "ja": "ニュージーランド",
+        "zh-CN": "新西兰",
+        "zh-TW": "紐西蘭"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-558",
+      "kind": "area",
+      "parent_id": "place-m49-013",
+      "m49_code": "558",
+      "iso_alpha2": "NI",
+      "iso_alpha3": "NIC",
+      "names": {
+        "en": "Nicaragua",
+        "ja": "ニカラグア",
+        "zh-CN": "尼加拉瓜",
+        "zh-TW": "尼加拉瓜"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-562",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "562",
+      "iso_alpha2": "NE",
+      "iso_alpha3": "NER",
+      "names": {
+        "en": "Niger",
+        "ja": "ニジェール",
+        "zh-CN": "尼日尔",
+        "zh-TW": "尼日"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-566",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "566",
+      "iso_alpha2": "NG",
+      "iso_alpha3": "NGA",
+      "names": {
+        "en": "Nigeria",
+        "ja": "ナイジェリア",
+        "zh-CN": "尼日利亚",
+        "zh-TW": "奈及利亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-570",
+      "kind": "area",
+      "parent_id": "place-m49-061",
+      "m49_code": "570",
+      "iso_alpha2": "NU",
+      "iso_alpha3": "NIU",
+      "names": {
+        "en": "Niue",
+        "ja": "ニウエ",
+        "zh-CN": "纽埃",
+        "zh-TW": "紐埃島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-574",
+      "kind": "area",
+      "parent_id": "place-m49-053",
+      "m49_code": "574",
+      "iso_alpha2": "NF",
+      "iso_alpha3": "NFK",
+      "names": {
+        "en": "Norfolk Island",
+        "ja": "ノーフォーク島",
+        "zh-CN": "诺福克岛",
+        "zh-TW": "諾福克島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-578",
+      "kind": "area",
+      "parent_id": "place-m49-154",
+      "m49_code": "578",
+      "iso_alpha2": "NO",
+      "iso_alpha3": "NOR",
+      "names": {
+        "en": "Norway",
+        "ja": "ノルウェー",
+        "zh-CN": "挪威",
+        "zh-TW": "挪威"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-580",
+      "kind": "area",
+      "parent_id": "place-m49-057",
+      "m49_code": "580",
+      "iso_alpha2": "MP",
+      "iso_alpha3": "MNP",
+      "names": {
+        "en": "Northern Mariana Islands",
+        "ja": "北マリアナ諸島",
+        "zh-CN": "北马里亚纳群岛",
+        "zh-TW": "北馬利安納群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-581",
+      "kind": "area",
+      "parent_id": "place-m49-057",
+      "m49_code": "581",
+      "iso_alpha2": "UM",
+      "iso_alpha3": "UMI",
+      "names": {
+        "en": "U.S. Outlying Islands",
+        "ja": "合衆国領有小離島",
+        "zh-CN": "美国本土外小岛屿",
+        "zh-TW": "美國本土外小島嶼"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-583",
+      "kind": "area",
+      "parent_id": "place-m49-057",
+      "m49_code": "583",
+      "iso_alpha2": "FM",
+      "iso_alpha3": "FSM",
+      "names": {
+        "en": "Micronesia",
+        "ja": "ミクロネシア連邦",
+        "zh-CN": "密克罗尼西亚",
+        "zh-TW": "密克羅尼西亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-584",
+      "kind": "area",
+      "parent_id": "place-m49-057",
+      "m49_code": "584",
+      "iso_alpha2": "MH",
+      "iso_alpha3": "MHL",
+      "names": {
+        "en": "Marshall Islands",
+        "ja": "マーシャル諸島",
+        "zh-CN": "马绍尔群岛",
+        "zh-TW": "馬紹爾群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-585",
+      "kind": "area",
+      "parent_id": "place-m49-057",
+      "m49_code": "585",
+      "iso_alpha2": "PW",
+      "iso_alpha3": "PLW",
+      "names": {
+        "en": "Palau",
+        "ja": "パラオ",
+        "zh-CN": "帕劳",
+        "zh-TW": "帛琉"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-586",
+      "kind": "area",
+      "parent_id": "place-m49-034",
+      "m49_code": "586",
+      "iso_alpha2": "PK",
+      "iso_alpha3": "PAK",
+      "names": {
+        "en": "Pakistan",
+        "ja": "パキスタン",
+        "zh-CN": "巴基斯坦",
+        "zh-TW": "巴基斯坦"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-591",
+      "kind": "area",
+      "parent_id": "place-m49-013",
+      "m49_code": "591",
+      "iso_alpha2": "PA",
+      "iso_alpha3": "PAN",
+      "names": {
+        "en": "Panama",
+        "ja": "パナマ",
+        "zh-CN": "巴拿马",
+        "zh-TW": "巴拿馬"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-598",
+      "kind": "area",
+      "parent_id": "place-m49-054",
+      "m49_code": "598",
+      "iso_alpha2": "PG",
+      "iso_alpha3": "PNG",
+      "names": {
+        "en": "Papua New Guinea",
+        "ja": "パプアニューギニア",
+        "zh-CN": "巴布亚新几内亚",
+        "zh-TW": "巴布亞紐幾內亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-600",
+      "kind": "area",
+      "parent_id": "place-m49-005",
+      "m49_code": "600",
+      "iso_alpha2": "PY",
+      "iso_alpha3": "PRY",
+      "names": {
+        "en": "Paraguay",
+        "ja": "パラグアイ",
+        "zh-CN": "巴拉圭",
+        "zh-TW": "巴拉圭"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-604",
+      "kind": "area",
+      "parent_id": "place-m49-005",
+      "m49_code": "604",
+      "iso_alpha2": "PE",
+      "iso_alpha3": "PER",
+      "names": {
+        "en": "Peru",
+        "ja": "ペルー",
+        "zh-CN": "秘鲁",
+        "zh-TW": "秘魯"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-608",
+      "kind": "area",
+      "parent_id": "place-m49-035",
+      "m49_code": "608",
+      "iso_alpha2": "PH",
+      "iso_alpha3": "PHL",
+      "names": {
+        "en": "Philippines",
+        "ja": "フィリピン",
+        "zh-CN": "菲律宾",
+        "zh-TW": "菲律賓"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-612",
+      "kind": "area",
+      "parent_id": "place-m49-061",
+      "m49_code": "612",
+      "iso_alpha2": "PN",
+      "iso_alpha3": "PCN",
+      "names": {
+        "en": "Pitcairn Islands",
+        "ja": "ピトケアン諸島",
+        "zh-CN": "皮特凯恩群岛",
+        "zh-TW": "皮特肯群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-616",
+      "kind": "area",
+      "parent_id": "place-m49-151",
+      "m49_code": "616",
+      "iso_alpha2": "PL",
+      "iso_alpha3": "POL",
+      "names": {
+        "en": "Poland",
+        "ja": "ポーランド",
+        "zh-CN": "波兰",
+        "zh-TW": "波蘭"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-620",
+      "kind": "area",
+      "parent_id": "place-m49-039",
+      "m49_code": "620",
+      "iso_alpha2": "PT",
+      "iso_alpha3": "PRT",
+      "names": {
+        "en": "Portugal",
+        "ja": "ポルトガル",
+        "zh-CN": "葡萄牙",
+        "zh-TW": "葡萄牙"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-624",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "624",
+      "iso_alpha2": "GW",
+      "iso_alpha3": "GNB",
+      "names": {
+        "en": "Guinea-Bissau",
+        "ja": "ギニアビサウ",
+        "zh-CN": "几内亚比绍",
+        "zh-TW": "幾內亞比索"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-626",
+      "kind": "area",
+      "parent_id": "place-m49-035",
+      "m49_code": "626",
+      "iso_alpha2": "TL",
+      "iso_alpha3": "TLS",
+      "names": {
+        "en": "Timor-Leste",
+        "ja": "東ティモール",
+        "zh-CN": "东帝汶",
+        "zh-TW": "東帝汶"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-630",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "630",
+      "iso_alpha2": "PR",
+      "iso_alpha3": "PRI",
+      "names": {
+        "en": "Puerto Rico",
+        "ja": "プエルトリコ",
+        "zh-CN": "波多黎各",
+        "zh-TW": "波多黎各"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-634",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "634",
+      "iso_alpha2": "QA",
+      "iso_alpha3": "QAT",
+      "names": {
+        "en": "Qatar",
+        "ja": "カタール",
+        "zh-CN": "卡塔尔",
+        "zh-TW": "卡達"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-638",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "638",
+      "iso_alpha2": "RE",
+      "iso_alpha3": "REU",
+      "names": {
+        "en": "Réunion",
+        "ja": "レユニオン",
+        "zh-CN": "留尼汪",
+        "zh-TW": "留尼旺"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-642",
+      "kind": "area",
+      "parent_id": "place-m49-151",
+      "m49_code": "642",
+      "iso_alpha2": "RO",
+      "iso_alpha3": "ROU",
+      "names": {
+        "en": "Romania",
+        "ja": "ルーマニア",
+        "zh-CN": "罗马尼亚",
+        "zh-TW": "羅馬尼亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-643",
+      "kind": "area",
+      "parent_id": "place-m49-151",
+      "m49_code": "643",
+      "iso_alpha2": "RU",
+      "iso_alpha3": "RUS",
+      "names": {
+        "en": "Russia",
+        "ja": "ロシア",
+        "zh-CN": "俄罗斯",
+        "zh-TW": "俄羅斯"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-646",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "646",
+      "iso_alpha2": "RW",
+      "iso_alpha3": "RWA",
+      "names": {
+        "en": "Rwanda",
+        "ja": "ルワンダ",
+        "zh-CN": "卢旺达",
+        "zh-TW": "盧安達"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-652",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "652",
+      "iso_alpha2": "BL",
+      "iso_alpha3": "BLM",
+      "names": {
+        "en": "St. Barthélemy",
+        "ja": "サン・バルテルミー",
+        "zh-CN": "圣巴泰勒米",
+        "zh-TW": "聖巴瑟米"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-654",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "654",
+      "iso_alpha2": "SH",
+      "iso_alpha3": "SHN",
+      "names": {
+        "en": "St. Helena",
+        "ja": "セントヘレナ",
+        "zh-CN": "圣赫勒拿",
+        "zh-TW": "聖赫勒拿島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-659",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "659",
+      "iso_alpha2": "KN",
+      "iso_alpha3": "KNA",
+      "names": {
+        "en": "St. Kitts & Nevis",
+        "ja": "セントクリストファー・ネーヴィス",
+        "zh-CN": "圣基茨和尼维斯",
+        "zh-TW": "聖克里斯多福及尼維斯"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-660",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "660",
+      "iso_alpha2": "AI",
+      "iso_alpha3": "AIA",
+      "names": {
+        "en": "Anguilla",
+        "ja": "アンギラ",
+        "zh-CN": "安圭拉",
+        "zh-TW": "安奎拉"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-662",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "662",
+      "iso_alpha2": "LC",
+      "iso_alpha3": "LCA",
+      "names": {
+        "en": "St. Lucia",
+        "ja": "セントルシア",
+        "zh-CN": "圣卢西亚",
+        "zh-TW": "聖露西亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-663",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "663",
+      "iso_alpha2": "MF",
+      "iso_alpha3": "MAF",
+      "names": {
+        "en": "St. Martin",
+        "ja": "サン・マルタン",
+        "zh-CN": "法属圣马丁",
+        "zh-TW": "法屬聖馬丁"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-666",
+      "kind": "area",
+      "parent_id": "place-m49-021",
+      "m49_code": "666",
+      "iso_alpha2": "PM",
+      "iso_alpha3": "SPM",
+      "names": {
+        "en": "St. Pierre & Miquelon",
+        "ja": "サンピエール島・ミクロン島",
+        "zh-CN": "圣皮埃尔和密克隆群岛",
+        "zh-TW": "聖皮埃與密克隆群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-670",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "670",
+      "iso_alpha2": "VC",
+      "iso_alpha3": "VCT",
+      "names": {
+        "en": "St. Vincent & Grenadines",
+        "ja": "セントビンセント及びグレナディーン諸島",
+        "zh-CN": "圣文森特和格林纳丁斯",
+        "zh-TW": "聖文森及格瑞那丁"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-674",
+      "kind": "area",
+      "parent_id": "place-m49-039",
+      "m49_code": "674",
+      "iso_alpha2": "SM",
+      "iso_alpha3": "SMR",
+      "names": {
+        "en": "San Marino",
+        "ja": "サンマリノ",
+        "zh-CN": "圣马力诺",
+        "zh-TW": "聖馬利諾"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-678",
+      "kind": "area",
+      "parent_id": "place-m49-017",
+      "m49_code": "678",
+      "iso_alpha2": "ST",
+      "iso_alpha3": "STP",
+      "names": {
+        "en": "São Tomé & Príncipe",
+        "ja": "サントメ・プリンシペ",
+        "zh-CN": "圣多美和普林西比",
+        "zh-TW": "聖多美普林西比"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-682",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "682",
+      "iso_alpha2": "SA",
+      "iso_alpha3": "SAU",
+      "names": {
+        "en": "Saudi Arabia",
+        "ja": "サウジアラビア",
+        "zh-CN": "沙特阿拉伯",
+        "zh-TW": "沙烏地阿拉伯"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-686",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "686",
+      "iso_alpha2": "SN",
+      "iso_alpha3": "SEN",
+      "names": {
+        "en": "Senegal",
+        "ja": "セネガル",
+        "zh-CN": "塞内加尔",
+        "zh-TW": "塞內加爾"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-688",
+      "kind": "area",
+      "parent_id": "place-m49-039",
+      "m49_code": "688",
+      "iso_alpha2": "RS",
+      "iso_alpha3": "SRB",
+      "names": {
+        "en": "Serbia",
+        "ja": "セルビア",
+        "zh-CN": "塞尔维亚",
+        "zh-TW": "塞爾維亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-690",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "690",
+      "iso_alpha2": "SC",
+      "iso_alpha3": "SYC",
+      "names": {
+        "en": "Seychelles",
+        "ja": "セーシェル",
+        "zh-CN": "塞舌尔",
+        "zh-TW": "塞席爾"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-694",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "694",
+      "iso_alpha2": "SL",
+      "iso_alpha3": "SLE",
+      "names": {
+        "en": "Sierra Leone",
+        "ja": "シエラレオネ",
+        "zh-CN": "塞拉利昂",
+        "zh-TW": "獅子山"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-702",
+      "kind": "area",
+      "parent_id": "place-m49-035",
+      "m49_code": "702",
+      "iso_alpha2": "SG",
+      "iso_alpha3": "SGP",
+      "names": {
+        "en": "Singapore",
+        "ja": "シンガポール",
+        "zh-CN": "新加坡",
+        "zh-TW": "新加坡"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-703",
+      "kind": "area",
+      "parent_id": "place-m49-151",
+      "m49_code": "703",
+      "iso_alpha2": "SK",
+      "iso_alpha3": "SVK",
+      "names": {
+        "en": "Slovakia",
+        "ja": "スロバキア",
+        "zh-CN": "斯洛伐克",
+        "zh-TW": "斯洛伐克"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-704",
+      "kind": "area",
+      "parent_id": "place-m49-035",
+      "m49_code": "704",
+      "iso_alpha2": "VN",
+      "iso_alpha3": "VNM",
+      "names": {
+        "en": "Vietnam",
+        "ja": "ベトナム",
+        "zh-CN": "越南",
+        "zh-TW": "越南"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-705",
+      "kind": "area",
+      "parent_id": "place-m49-039",
+      "m49_code": "705",
+      "iso_alpha2": "SI",
+      "iso_alpha3": "SVN",
+      "names": {
+        "en": "Slovenia",
+        "ja": "スロベニア",
+        "zh-CN": "斯洛文尼亚",
+        "zh-TW": "斯洛維尼亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-706",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "706",
+      "iso_alpha2": "SO",
+      "iso_alpha3": "SOM",
+      "names": {
+        "en": "Somalia",
+        "ja": "ソマリア",
+        "zh-CN": "索马里",
+        "zh-TW": "索馬利亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-710",
+      "kind": "area",
+      "parent_id": "place-m49-018",
+      "m49_code": "710",
+      "iso_alpha2": "ZA",
+      "iso_alpha3": "ZAF",
+      "names": {
+        "en": "South Africa",
+        "ja": "南アフリカ",
+        "zh-CN": "南非",
+        "zh-TW": "南非"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-716",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "716",
+      "iso_alpha2": "ZW",
+      "iso_alpha3": "ZWE",
+      "names": {
+        "en": "Zimbabwe",
+        "ja": "ジンバブエ",
+        "zh-CN": "津巴布韦",
+        "zh-TW": "辛巴威"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-724",
+      "kind": "area",
+      "parent_id": "place-m49-039",
+      "m49_code": "724",
+      "iso_alpha2": "ES",
+      "iso_alpha3": "ESP",
+      "names": {
+        "en": "Spain",
+        "ja": "スペイン",
+        "zh-CN": "西班牙",
+        "zh-TW": "西班牙"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-728",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "728",
+      "iso_alpha2": "SS",
+      "iso_alpha3": "SSD",
+      "names": {
+        "en": "South Sudan",
+        "ja": "南スーダン",
+        "zh-CN": "南苏丹",
+        "zh-TW": "南蘇丹"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-729",
+      "kind": "area",
+      "parent_id": "place-m49-015",
+      "m49_code": "729",
+      "iso_alpha2": "SD",
+      "iso_alpha3": "SDN",
+      "names": {
+        "en": "Sudan",
+        "ja": "スーダン",
+        "zh-CN": "苏丹",
+        "zh-TW": "蘇丹"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-732",
+      "kind": "area",
+      "parent_id": "place-m49-015",
+      "m49_code": "732",
+      "iso_alpha2": "EH",
+      "iso_alpha3": "ESH",
+      "names": {
+        "en": "Western Sahara",
+        "ja": "西サハラ",
+        "zh-CN": "西撒哈拉",
+        "zh-TW": "西撒哈拉"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-740",
+      "kind": "area",
+      "parent_id": "place-m49-005",
+      "m49_code": "740",
+      "iso_alpha2": "SR",
+      "iso_alpha3": "SUR",
+      "names": {
+        "en": "Suriname",
+        "ja": "スリナム",
+        "zh-CN": "苏里南",
+        "zh-TW": "蘇利南"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-744",
+      "kind": "area",
+      "parent_id": "place-m49-154",
+      "m49_code": "744",
+      "iso_alpha2": "SJ",
+      "iso_alpha3": "SJM",
+      "names": {
+        "en": "Svalbard & Jan Mayen",
+        "ja": "スバールバル諸島・ヤンマイエン島",
+        "zh-CN": "斯瓦尔巴和扬马延",
+        "zh-TW": "挪威屬斯瓦巴及尖棉"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-748",
+      "kind": "area",
+      "parent_id": "place-m49-018",
+      "m49_code": "748",
+      "iso_alpha2": "SZ",
+      "iso_alpha3": "SWZ",
+      "names": {
+        "en": "Eswatini",
+        "ja": "エスワティニ",
+        "zh-CN": "斯威士兰",
+        "zh-TW": "史瓦帝尼"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-752",
+      "kind": "area",
+      "parent_id": "place-m49-154",
+      "m49_code": "752",
+      "iso_alpha2": "SE",
+      "iso_alpha3": "SWE",
+      "names": {
+        "en": "Sweden",
+        "ja": "スウェーデン",
+        "zh-CN": "瑞典",
+        "zh-TW": "瑞典"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-756",
+      "kind": "area",
+      "parent_id": "place-m49-155",
+      "m49_code": "756",
+      "iso_alpha2": "CH",
+      "iso_alpha3": "CHE",
+      "names": {
+        "en": "Switzerland",
+        "ja": "スイス",
+        "zh-CN": "瑞士",
+        "zh-TW": "瑞士"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-760",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "760",
+      "iso_alpha2": "SY",
+      "iso_alpha3": "SYR",
+      "names": {
+        "en": "Syria",
+        "ja": "シリア",
+        "zh-CN": "叙利亚",
+        "zh-TW": "敘利亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-762",
+      "kind": "area",
+      "parent_id": "place-m49-143",
+      "m49_code": "762",
+      "iso_alpha2": "TJ",
+      "iso_alpha3": "TJK",
+      "names": {
+        "en": "Tajikistan",
+        "ja": "タジキスタン",
+        "zh-CN": "塔吉克斯坦",
+        "zh-TW": "塔吉克"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-764",
+      "kind": "area",
+      "parent_id": "place-m49-035",
+      "m49_code": "764",
+      "iso_alpha2": "TH",
+      "iso_alpha3": "THA",
+      "names": {
+        "en": "Thailand",
+        "ja": "タイ",
+        "zh-CN": "泰国",
+        "zh-TW": "泰國"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-768",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "768",
+      "iso_alpha2": "TG",
+      "iso_alpha3": "TGO",
+      "names": {
+        "en": "Togo",
+        "ja": "トーゴ",
+        "zh-CN": "多哥",
+        "zh-TW": "多哥"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-772",
+      "kind": "area",
+      "parent_id": "place-m49-061",
+      "m49_code": "772",
+      "iso_alpha2": "TK",
+      "iso_alpha3": "TKL",
+      "names": {
+        "en": "Tokelau",
+        "ja": "トケラウ",
+        "zh-CN": "托克劳",
+        "zh-TW": "托克勞群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-776",
+      "kind": "area",
+      "parent_id": "place-m49-061",
+      "m49_code": "776",
+      "iso_alpha2": "TO",
+      "iso_alpha3": "TON",
+      "names": {
+        "en": "Tonga",
+        "ja": "トンガ",
+        "zh-CN": "汤加",
+        "zh-TW": "東加"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-780",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "780",
+      "iso_alpha2": "TT",
+      "iso_alpha3": "TTO",
+      "names": {
+        "en": "Trinidad & Tobago",
+        "ja": "トリニダード・トバゴ",
+        "zh-CN": "特立尼达和多巴哥",
+        "zh-TW": "千里達及托巴哥"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-784",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "784",
+      "iso_alpha2": "AE",
+      "iso_alpha3": "ARE",
+      "names": {
+        "en": "United Arab Emirates",
+        "ja": "アラブ首長国連邦",
+        "zh-CN": "阿拉伯联合酋长国",
+        "zh-TW": "阿拉伯聯合大公國"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-788",
+      "kind": "area",
+      "parent_id": "place-m49-015",
+      "m49_code": "788",
+      "iso_alpha2": "TN",
+      "iso_alpha3": "TUN",
+      "names": {
+        "en": "Tunisia",
+        "ja": "チュニジア",
+        "zh-CN": "突尼斯",
+        "zh-TW": "突尼西亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-792",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "792",
+      "iso_alpha2": "TR",
+      "iso_alpha3": "TUR",
+      "names": {
+        "en": "Türkiye",
+        "ja": "トルコ",
+        "zh-CN": "土耳其",
+        "zh-TW": "土耳其"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-795",
+      "kind": "area",
+      "parent_id": "place-m49-143",
+      "m49_code": "795",
+      "iso_alpha2": "TM",
+      "iso_alpha3": "TKM",
+      "names": {
+        "en": "Turkmenistan",
+        "ja": "トルクメニスタン",
+        "zh-CN": "土库曼斯坦",
+        "zh-TW": "土庫曼"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-796",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "796",
+      "iso_alpha2": "TC",
+      "iso_alpha3": "TCA",
+      "names": {
+        "en": "Turks & Caicos Islands",
+        "ja": "タークス・カイコス諸島",
+        "zh-CN": "特克斯和凯科斯群岛",
+        "zh-TW": "土克斯及開科斯群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-798",
+      "kind": "area",
+      "parent_id": "place-m49-061",
+      "m49_code": "798",
+      "iso_alpha2": "TV",
+      "iso_alpha3": "TUV",
+      "names": {
+        "en": "Tuvalu",
+        "ja": "ツバル",
+        "zh-CN": "图瓦卢",
+        "zh-TW": "吐瓦魯"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-800",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "800",
+      "iso_alpha2": "UG",
+      "iso_alpha3": "UGA",
+      "names": {
+        "en": "Uganda",
+        "ja": "ウガンダ",
+        "zh-CN": "乌干达",
+        "zh-TW": "烏干達"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-804",
+      "kind": "area",
+      "parent_id": "place-m49-151",
+      "m49_code": "804",
+      "iso_alpha2": "UA",
+      "iso_alpha3": "UKR",
+      "names": {
+        "en": "Ukraine",
+        "ja": "ウクライナ",
+        "zh-CN": "乌克兰",
+        "zh-TW": "烏克蘭"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-807",
+      "kind": "area",
+      "parent_id": "place-m49-039",
+      "m49_code": "807",
+      "iso_alpha2": "MK",
+      "iso_alpha3": "MKD",
+      "names": {
+        "en": "North Macedonia",
+        "ja": "北マケドニア",
+        "zh-CN": "北马其顿",
+        "zh-TW": "北馬其頓"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-818",
+      "kind": "area",
+      "parent_id": "place-m49-015",
+      "m49_code": "818",
+      "iso_alpha2": "EG",
+      "iso_alpha3": "EGY",
+      "names": {
+        "en": "Egypt",
+        "ja": "エジプト",
+        "zh-CN": "埃及",
+        "zh-TW": "埃及"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-826",
+      "kind": "area",
+      "parent_id": "place-m49-154",
+      "m49_code": "826",
+      "iso_alpha2": "GB",
+      "iso_alpha3": "GBR",
+      "names": {
+        "en": "United Kingdom",
+        "ja": "イギリス",
+        "zh-CN": "英国",
+        "zh-TW": "英國"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-831",
+      "kind": "area",
+      "parent_id": "place-m49-154",
+      "m49_code": "831",
+      "iso_alpha2": "GG",
+      "iso_alpha3": "GGY",
+      "names": {
+        "en": "Guernsey",
+        "ja": "ガーンジー",
+        "zh-CN": "根西岛",
+        "zh-TW": "根息"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-832",
+      "kind": "area",
+      "parent_id": "place-m49-154",
+      "m49_code": "832",
+      "iso_alpha2": "JE",
+      "iso_alpha3": "JEY",
+      "names": {
+        "en": "Jersey",
+        "ja": "ジャージー",
+        "zh-CN": "泽西岛",
+        "zh-TW": "澤西島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-833",
+      "kind": "area",
+      "parent_id": "place-m49-154",
+      "m49_code": "833",
+      "iso_alpha2": "IM",
+      "iso_alpha3": "IMN",
+      "names": {
+        "en": "Isle of Man",
+        "ja": "マン島",
+        "zh-CN": "马恩岛",
+        "zh-TW": "曼島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-834",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "834",
+      "iso_alpha2": "TZ",
+      "iso_alpha3": "TZA",
+      "names": {
+        "en": "Tanzania",
+        "ja": "タンザニア",
+        "zh-CN": "坦桑尼亚",
+        "zh-TW": "坦尚尼亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-840",
+      "kind": "area",
+      "parent_id": "place-m49-021",
+      "m49_code": "840",
+      "iso_alpha2": "US",
+      "iso_alpha3": "USA",
+      "names": {
+        "en": "United States",
+        "ja": "アメリカ合衆国",
+        "zh-CN": "美国",
+        "zh-TW": "美國"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-850",
+      "kind": "area",
+      "parent_id": "place-m49-029",
+      "m49_code": "850",
+      "iso_alpha2": "VI",
+      "iso_alpha3": "VIR",
+      "names": {
+        "en": "U.S. Virgin Islands",
+        "ja": "米領ヴァージン諸島",
+        "zh-CN": "美属维尔京群岛",
+        "zh-TW": "美屬維京群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-854",
+      "kind": "area",
+      "parent_id": "place-m49-011",
+      "m49_code": "854",
+      "iso_alpha2": "BF",
+      "iso_alpha3": "BFA",
+      "names": {
+        "en": "Burkina Faso",
+        "ja": "ブルキナファソ",
+        "zh-CN": "布基纳法索",
+        "zh-TW": "布吉納法索"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-858",
+      "kind": "area",
+      "parent_id": "place-m49-005",
+      "m49_code": "858",
+      "iso_alpha2": "UY",
+      "iso_alpha3": "URY",
+      "names": {
+        "en": "Uruguay",
+        "ja": "ウルグアイ",
+        "zh-CN": "乌拉圭",
+        "zh-TW": "烏拉圭"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-860",
+      "kind": "area",
+      "parent_id": "place-m49-143",
+      "m49_code": "860",
+      "iso_alpha2": "UZ",
+      "iso_alpha3": "UZB",
+      "names": {
+        "en": "Uzbekistan",
+        "ja": "ウズベキスタン",
+        "zh-CN": "乌兹别克斯坦",
+        "zh-TW": "烏茲別克"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-862",
+      "kind": "area",
+      "parent_id": "place-m49-005",
+      "m49_code": "862",
+      "iso_alpha2": "VE",
+      "iso_alpha3": "VEN",
+      "names": {
+        "en": "Venezuela",
+        "ja": "ベネズエラ",
+        "zh-CN": "委内瑞拉",
+        "zh-TW": "委內瑞拉"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-876",
+      "kind": "area",
+      "parent_id": "place-m49-061",
+      "m49_code": "876",
+      "iso_alpha2": "WF",
+      "iso_alpha3": "WLF",
+      "names": {
+        "en": "Wallis & Futuna",
+        "ja": "ウォリス・フツナ",
+        "zh-CN": "瓦利斯和富图纳",
+        "zh-TW": "瓦利斯群島和富圖那群島"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-882",
+      "kind": "area",
+      "parent_id": "place-m49-061",
+      "m49_code": "882",
+      "iso_alpha2": "WS",
+      "iso_alpha3": "WSM",
+      "names": {
+        "en": "Samoa",
+        "ja": "サモア",
+        "zh-CN": "萨摩亚",
+        "zh-TW": "薩摩亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-887",
+      "kind": "area",
+      "parent_id": "place-m49-145",
+      "m49_code": "887",
+      "iso_alpha2": "YE",
+      "iso_alpha3": "YEM",
+      "names": {
+        "en": "Yemen",
+        "ja": "イエメン",
+        "zh-CN": "也门",
+        "zh-TW": "葉門"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    },
+    {
+      "id": "place-m49-894",
+      "kind": "area",
+      "parent_id": "place-m49-014",
+      "m49_code": "894",
+      "iso_alpha2": "ZM",
+      "iso_alpha3": "ZMB",
+      "names": {
+        "en": "Zambia",
+        "ja": "ザンビア",
+        "zh-CN": "赞比亚",
+        "zh-TW": "尚比亞"
+      },
+      "name_sources": {
+        "en": "cldr:en",
+        "ja": "cldr:ja",
+        "zh-CN": "cldr:zh-CN",
+        "zh-TW": "cldr:zh-TW"
+      },
+      "is_active": true
+    }
+  ]
+}
