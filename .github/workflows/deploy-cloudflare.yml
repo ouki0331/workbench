@@ -35,6 +35,8 @@ jobs:
           npm run lint:app
           npx tsc --noEmit
           npm run build
+          npm run test:cloud-library
+          npm run test:cloud-migrations
 
       - name: Deploy Worker
         uses: cloudflare/wrangler-action@v4

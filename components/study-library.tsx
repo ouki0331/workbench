@@ -123,7 +123,7 @@ const categories = [
   { id: 'audio' as const, name: '练习音频', icon: Headphones },
   { id: 'recordings' as const, name: '我的录音', icon: Mic },
 ];
-const maxFile = 100 * 1024 * 1024;
+const maxFile = 90 * 1024 * 1024;
 function sizeLabel(n: number) {
   return n < 1024 * 1024
     ? `${(n / 1024).toFixed(1)} KB`
@@ -225,6 +225,7 @@ export default function StudyLibrary({
     [directory, setDirectory] = useState(''),
     [online, setOnline] = useState(false),
     [sqliteMode, setSqliteMode] = useState(false),
+    [cloudMode, setCloudMode] = useState(false),
     [loading, setLoading] = useState(true),
     [busy, setBusy] = useState(false),
     [message, setMessage] = useState(''),
@@ -364,6 +365,7 @@ export default function StudyLibrary({
       );
       setDirectory(status.directory);
       setSqliteMode(status.mode === 'sqlite');
+      setCloudMode(status.mode === 'cloud');
       setItems(response.items);
       if (initialItem) {
         const target = response.items.find(
@@ -507,7 +509,7 @@ export default function StudyLibrary({
           seconds: 0,
         });
       clearDraft();
-      setMessage('已保存到电脑资料目录。');
+      setMessage(cloudMode ? '已保存到云端资料库。' : '已保存到电脑资料目录。');
     } catch (e) {
       setMessage(
         e instanceof Error ? e.message : '保存失败，内容仍保留在表单中。',
@@ -519,7 +521,7 @@ export default function StudyLibrary({
   }
   async function saveFile(file: Blob, name: string, isRecording = false) {
     if (!file.size || file.size > maxFile) {
-      setMessage('请选择非空文件，单个文件最大 100 MB。');
+      setMessage('请选择非空文件，单个文件最大 90 MiB。');
       return;
     }
     if (busy) return;
@@ -845,11 +847,13 @@ export default function StudyLibrary({
         <div>
           <h2>
             <FolderOpen size={20} />
-            我的电脑资料库
+            {cloudMode ? '我的云端资料库' : '我的电脑资料库'}
           </h2>
-          <p>{directory || '正在连接本地资料目录…'}</p>
+          <p>{directory || '正在连接资料库…'}</p>
           <span>
-            {sqliteMode
+            {cloudMode
+              ? '文本资料保存在私有云端存储，可在已授权设备重新打开。'
+              : sqliteMode
               ? '文章、单词、音频与录音保存在当前资料目录；可打包备份并迁移。'
               : '原文和音频实际保存为文件；备份可整体迁移到其他存储位置。'}
           </span>
@@ -863,13 +867,15 @@ export default function StudyLibrary({
             <RefreshCw size={16} />
             重新连接
           </Button>
-          <Button
-            disabled={!online || busy || recording || requestingMic}
-            onClick={() => void makeBackup()}
-          >
-            <Download size={16} />
-            {busy ? '处理中…' : '打包备份'}
-          </Button>
+          {!cloudMode && (
+            <Button
+              disabled={!online || busy || recording || requestingMic}
+              onClick={() => void makeBackup()}
+            >
+              <Download size={16} />
+              {busy ? '处理中…' : '打包备份'}
+            </Button>
+          )}
         </div>
       </section>
       {message && (
@@ -1202,7 +1208,7 @@ export default function StudyLibrary({
                   收起
                 </button>
               </div>
-              {sqliteMode && edit ? (
+              {(sqliteMode || cloudMode) && edit ? (
                 <fieldset disabled={editBusy || detail.item.repairRequired}>
                   <label>
                     标题

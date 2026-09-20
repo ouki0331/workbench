@@ -565,7 +565,7 @@ export async function createLibraryServer({
               available: true,
               directory: library,
               mode,
-              maxUploadBytes: 100 * 1024 * 1024,
+              maxUploadBytes: 90 * 1024 * 1024,
             });
             return;
           }
@@ -928,7 +928,7 @@ export async function createLibraryServer({
                   ? audioMime[ext]
                   : null;
             if (!mime) throw fail(400, '不支持此文件类型');
-            const content = await body(req, 100 * 1024 * 1024);
+            const content = await body(req, 90 * 1024 * 1024);
             if (!content.length) throw fail(400, '不能保存空文件');
             const fields = {
               title: u.searchParams.get('title') || name,

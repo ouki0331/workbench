@@ -14,7 +14,7 @@
     "build:cloudstudio": "vite build --config vite.cloudstudio.ts",
     "start:cloudstudio": "node scripts/serve-cloudstudio.mjs",
     "test": "node scripts/progress.test.mjs",
-    "lint:app": "oxlint app/page.tsx app/layout.tsx lib/progress.ts lib/review.ts lib/assessment.ts lib/analytics.ts lib/i18n.tsx lib/learning-providers.ts cloudstudio.tsx vite.cloudstudio.ts scripts components/study-library.tsx components/global-search.tsx components/import-center.tsx components/practice-workspace.tsx components/review-workspace.tsx components/level-assessment.tsx components/learning-report.tsx lib/practice-materials.ts",
+    "lint:app": "oxlint app/page.tsx app/layout.tsx app/api/library/[[...path]]/route.ts lib/progress.ts lib/review.ts lib/assessment.ts lib/analytics.ts lib/i18n.tsx lib/learning-providers.ts lib/cloud-library.ts cloudstudio.tsx vite.cloudstudio.ts vite.config.ts scripts/cloud-library.test.mjs scripts/cloud-migration-smoke.mjs components/study-library.tsx components/global-search.tsx components/import-center.tsx components/practice-workspace.tsx components/review-workspace.tsx components/level-assessment.tsx components/learning-report.tsx lib/practice-materials.ts",
     "start:local": "node --experimental-strip-types scripts/serve-local.mjs",
     "test:library": "node --experimental-strip-types --test scripts/library.test.mjs",
     "test:practice": "node --experimental-strip-types --test scripts/practice.test.mjs",
@@ -26,7 +26,9 @@
     "test:library:sqlite": "node --experimental-strip-types --test scripts/sqlite-library.test.mjs",
     "test:library:integration": "node --experimental-strip-types --test scripts/library-integration.test.mjs",
     "test:library:edit": "node --experimental-strip-types --test scripts/library-edit.test.mjs",
-    "test:library:organization": "node --experimental-strip-types --test scripts/library-organization.test.mjs"
+    "test:library:organization": "node --experimental-strip-types --test scripts/library-organization.test.mjs",
+    "test:cloud-library": "node --experimental-strip-types --test scripts/cloud-library.test.mjs",
+    "test:cloud-migrations": "node scripts/cloud-migration-smoke.mjs"
   },
   "dependencies": {
     "react": "19.2.6",
@@ -57,6 +59,7 @@
     "@types/node": "22.19.19",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
+    "miniflare": "4.20260515.0",
     "@vitejs/plugin-react": "6.0.2",
     "@vitejs/plugin-rsc": "0.5.26",
     "oxfmt": "0.61.0",
